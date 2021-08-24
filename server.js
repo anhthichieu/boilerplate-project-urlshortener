@@ -49,6 +49,7 @@ connect(mongoURI, connectOptions, (err, db) => {
 import MyApp from './src/routes/URLShortenModel.js';
 MyApp(app);
 
+// TRUONG HOP CODE TRUC TIEP VA KHONG CHIA RA NHIEU FOLDERS:
 // Create a Schema
 // const urlShortenSchema = new Schema({
 //   originalUrl: String,
